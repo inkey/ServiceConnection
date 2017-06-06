@@ -1,0 +1,161 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PresentationLayer", "PresentationLayer", "{D7D95799-7425-4FF1-A38C-3D5189CB82CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BAL", "BAL", "{7583072D-955E-4449-BCD7-2CF8520A4E29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertServiceBAL", "AlertServiceBAL\AlertServiceBAL.csproj", "{B6D057CD-F0C2-401C-9CD3-25F8C26BF63A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{3F076A15-E9D0-44EB-A0B1-03D1CE0B6C2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectedSystemsDAL", "ConnectedSystemsDAL\ConnectedSystemsDAL.csproj", "{C3D69C15-1EE1-414C-94EA-DAA0E4695A24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertManager", "AlertService\AlertManager.csproj", "{8D6B2C66-971C-4E12-85FB-0F2C8FAE3944}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{FEAA7B1D-F2C1-4805-9604-693B9E68377A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertServiceUnitTests", "AlertServiceUnitTests\AlertServiceUnitTests.csproj", "{4ED39735-4C5B-4906-A4D4-F6A5FC0E87C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E579F428-D8D3-4C05-9754-C721A802D362}"
+	ProjectSection(SolutionItems) = preProject
+		.editorConfig = .editorConfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosting", "Hosting", "{D7D98088-4952-4BB3-8FAC-B00AB9E94B5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectionService", "ServiceConnection\ConnectionService.csproj", "{6C8A979B-1799-41DB-94AF-4F79D67252D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectionServiceBAL", "ConnectionServiceBAL\ConnectionServiceBAL.csproj", "{26A850D4-90FF-4FED-B3AC-FCA00745E982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostAlertServiceByConsole", "HostAlertServiceByConsole\HostAlertServiceByConsole.csproj", "{695A53F2-63F3-4174-BB94-0DFDC0267F1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostConnectionServiceByConsole", "HostConnectionServiceByConsole\HostConnectionServiceByConsole.csproj", "{B098FFE9-BB1C-4E5C-9BBC-3A55BF8148F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6D057CD-F0C2-401C-9CD3-25F8C26BF63A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D057CD-F0C2-401C-9CD3-25F8C26BF63A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D057CD-F0C2-401C-9CD3-25F8C26BF63A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D057CD-F0C2-401C-9CD3-25F8C26BF63A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3D69C15-1EE1-414C-94EA-DAA0E4695A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3D69C15-1EE1-414C-94EA-DAA0E4695A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3D69C15-1EE1-414C-94EA-DAA0E4695A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3D69C15-1EE1-414C-94EA-DAA0E4695A24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D6B2C66-971C-4E12-85FB-0F2C8FAE3944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6B2C66-971C-4E12-85FB-0F2C8FAE3944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D6B2C66-971C-4E12-85FB-0F2C8FAE3944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D6B2C66-971C-4E12-85FB-0F2C8FAE3944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED39735-4C5B-4906-A4D4-F6A5FC0E87C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED39735-4C5B-4906-A4D4-F6A5FC0E87C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED39735-4C5B-4906-A4D4-F6A5FC0E87C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED39735-4C5B-4906-A4D4-F6A5FC0E87C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C8A979B-1799-41DB-94AF-4F79D67252D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C8A979B-1799-41DB-94AF-4F79D67252D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C8A979B-1799-41DB-94AF-4F79D67252D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C8A979B-1799-41DB-94AF-4F79D67252D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A850D4-90FF-4FED-B3AC-FCA00745E982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A850D4-90FF-4FED-B3AC-FCA00745E982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A850D4-90FF-4FED-B3AC-FCA00745E982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A850D4-90FF-4FED-B3AC-FCA00745E982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{695A53F2-63F3-4174-BB94-0DFDC0267F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{695A53F2-63F3-4174-BB94-0DFDC0267F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{695A53F2-63F3-4174-BB94-0DFDC0267F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{695A53F2-63F3-4174-BB94-0DFDC0267F1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B098FFE9-BB1C-4E5C-9BBC-3A55BF8148F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B098FFE9-BB1C-4E5C-9BBC-3A55BF8148F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B098FFE9-BB1C-4E5C-9BBC-3A55BF8148F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B098FFE9-BB1C-4E5C-9BBC-3A55BF8148F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6D057CD-F0C2-401C-9CD3-25F8C26BF63A} = {7583072D-955E-4449-BCD7-2CF8520A4E29}
+		{C3D69C15-1EE1-414C-94EA-DAA0E4695A24} = {3F076A15-E9D0-44EB-A0B1-03D1CE0B6C2F}
+		{8D6B2C66-971C-4E12-85FB-0F2C8FAE3944} = {D7D95799-7425-4FF1-A38C-3D5189CB82CD}
+		{4ED39735-4C5B-4906-A4D4-F6A5FC0E87C7} = {FEAA7B1D-F2C1-4805-9604-693B9E68377A}
+		{6C8A979B-1799-41DB-94AF-4F79D67252D3} = {D7D95799-7425-4FF1-A38C-3D5189CB82CD}
+		{26A850D4-90FF-4FED-B3AC-FCA00745E982} = {7583072D-955E-4449-BCD7-2CF8520A4E29}
+		{695A53F2-63F3-4174-BB94-0DFDC0267F1E} = {D7D98088-4952-4BB3-8FAC-B00AB9E94B5A}
+		{B098FFE9-BB1C-4E5C-9BBC-3A55BF8148F1} = {D7D98088-4952-4BB3-8FAC-B00AB9E94B5A}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://moyparktfs.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AlertServiceBAL\\AlertServiceBAL.csproj
+		SccProjectTopLevelParentUniqueName1 = ConnectedSystems.sln
+		SccProjectName1 = AlertServiceBAL
+		SccLocalPath1 = AlertServiceBAL
+		SccProjectUniqueName2 = ConnectedSystemsDAL\\ConnectedSystemsDAL.csproj
+		SccProjectTopLevelParentUniqueName2 = ConnectedSystems.sln
+		SccProjectName2 = ConnectedSystemsDAL
+		SccLocalPath2 = ConnectedSystemsDAL
+		SccProjectUniqueName3 = AlertServiceUnitTests\\AlertServiceUnitTests.csproj
+		SccProjectTopLevelParentUniqueName3 = ConnectedSystems.sln
+		SccProjectName3 = AlertServiceUnitTests
+		SccLocalPath3 = AlertServiceUnitTests
+		SccProjectUniqueName4 = ServiceConnection\\ConnectionService.csproj
+		SccProjectTopLevelParentUniqueName4 = ConnectedSystems.sln
+		SccProjectName4 = ServiceConnection
+		SccLocalPath4 = ServiceConnection
+		SccProjectUniqueName5 = ConnectionServiceBAL\\ConnectionServiceBAL.csproj
+		SccProjectTopLevelParentUniqueName5 = ConnectedSystems.sln
+		SccProjectName5 = ConnectionServiceBAL
+		SccLocalPath5 = ConnectionServiceBAL
+		SccProjectUniqueName6 = AlertService\\AlertManager.csproj
+		SccProjectTopLevelParentUniqueName6 = ConnectedSystems.sln
+		SccProjectName6 = AlertService
+		SccLocalPath6 = AlertService
+		SccProjectUniqueName7 = HostAlertServiceByConsole\\HostAlertServiceByConsole.csproj
+		SccProjectTopLevelParentUniqueName7 = ConnectedSystems.sln
+		SccProjectName7 = HostAlertServiceByConsole
+		SccLocalPath7 = HostAlertServiceByConsole
+		SccProjectUniqueName8 = HostConnectionServiceByConsole\\HostConnectionServiceByConsole.csproj
+		SccProjectTopLevelParentUniqueName8 = ConnectedSystems.sln
+		SccProjectName8 = HostConnectionServiceByConsole
+		SccLocalPath8 = HostConnectionServiceByConsole
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://moyparktfs.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AlertServiceBAL\\AlertServiceBAL.csproj
+		SccProjectTopLevelParentUniqueName1 = ConnectedSystems.sln
+		SccProjectName1 = AlertServiceBAL
+		SccLocalPath1 = AlertServiceBAL
+		SccProjectUniqueName2 = ConnectedSystemsDAL\\ConnectedSystemsDAL.csproj
+		SccProjectTopLevelParentUniqueName2 = ConnectedSystems.sln
+		SccProjectName2 = ConnectedSystemsDAL
+		SccLocalPath2 = ConnectedSystemsDAL
+		SccProjectUniqueName3 = AlertService\\AlertService.csproj
+		SccProjectTopLevelParentUniqueName3 = ConnectedSystems.sln
+		SccProjectName3 = MoyParkCommonBusinessLayer
+		SccLocalPath3 = MoyParkCommonBusinessLayer
+		SccProjectUniqueName4 = AlertService\\AlertService.csproj
+		SccProjectTopLevelParentUniqueName4 = ConnectedSystems.sln
+		SccProjectName4 = AlertService
+		SccLocalPath4 = AlertService
+		SccProjectUniqueName5 = AlertServiceUnitTests\\AlertServiceUnitTests.csproj
+		SccProjectTopLevelParentUniqueName5 = ConnectedSystems.sln
+		SccProjectName5 = AlertServiceUnitTests
+		SccLocalPath5 = AlertServiceUnitTests
+		SccProjectUniqueName6 = ServiceConnection\\ConnectionService.csproj
+		SccProjectTopLevelParentUniqueName6 = ConnectedSystems.sln
+		SccProjectName6 = ServiceConnection
+		SccLocalPath6 = ServiceConnection
+		SccProjectUniqueName7 = ConnectionServiceBAL\\ConnectionServiceBAL.csproj
+		SccProjectTopLevelParentUniqueName7 = ConnectedSystems.sln
+		SccProjectName7 = ConnectionServiceBAL
+		SccLocalPath7 = ConnectionServiceBAL
+	EndGlobalSection
+EndGlobal
